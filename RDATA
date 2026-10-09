@@ -1,0 +1,1669 @@
+            (SETQ QL @(A B C D E F G H I J K L M N O P Q R S T U V W X Y Z '))
+            (MAPCAR (FUNCTION (LAMBDA (X) (PUTPROP X T @LET))) QL)
+
+            (DEFPROP INIT  0  WT)
+            (DEFPROP INIT  INIT  SET)
+      
+            (DEFPROP INTROTOP    (
+                                  (RACKETSET)
+                                  (GANGSTERSET)
+                                  (PERSONSET)
+                                  (CHEATSET)
+                                  (BOOKIESET)
+                                  (GAMBLERSET)
+                                  (MONEYSET)
+                                  (HORSERACINGSET)
+                                  (POLICESET)
+                                  (ITALIANSET)
+                                  (HORSESET)
+                                  (ARITHMETIC ADD SUBTRACT MULTIPLY DIVIDE PLUS MINUS TIMES
+                                   TWO THREE FOUR FIVE SIX SEVEN EIGHT NINE TEN
+                                   ELEVEN TWELVE THIRTEEN FOURTEEN FIFTEEN SIXTEEN
+                                   SEVENTEEN EIGHTEEN NINETEEN TWENTY
+                                   THIRTY FORTY FIFTY SIXTY SEVENTY EIGHTY NINETY HUNDRED)
+                                  (AGE OLD) (MARRIED WIFE) 
+                                  (GIRL GIRLS GIRLFRIEND GIRLFRIENDS (GIRL FRIEND)(GIRL FRIENDS) CHICKS WOMEN)
+                                  (OCCUPATION JOB WORK (FOR LIVING))                
+                                  (SERVICE ARMY NAVY BRANCH)
+                                  (LEAVE HOME (WHAT WANT ME) )
+                                  (HOSPITAL HOSPITALIZED HOSPITALIZATION HOSPITALIZATIONS WARD WARDS 
+                                   HERE PATIENT (THIS PLACE))
+                                  (PATIENTS )
+                                  (COMPUTER COMPUTERS  PROGRAM PROGRAMMER) 
+                                  (PERSON HUMAN BREATHE ALIVE PERSONALITY (MADE OUT OF) MACHINE MACHINES)
+                                  (DOCTOR DR DOCTOR'S THERAPIST THERAPIST'S PSYCHIATRIST PSYCHIATRIST'S
+                                   DOCTORS DIAGNOSIS)
+                                  (SEXLIFE SEX SEXUAL HOMOSEXUAL FAIRY QUEER PERVERT HOMO GAY DEVIATE
+                                   (MALE FRIENDS) MASTURBATE MASTURBATION)
+                                  (HEALTH SICK ILL  PAINS APPETITE  MEMORY REMEMBERING MINDS
+                                   REMEMBERING SLEEP SLEEPING ASLEEP INSOMNIA MOOD MOODS 
+                                   DAYDREAM CONCENTRATE CONCENTRATION THOUGHTS THINKING FORGET FORGETFUL
+                                   SUICIDE SICKNESS ILLNESS CONDITION LIQUOR DRINKING ALCOHOL DRINK 
+                                  (LOST WEIGHT)(LOSE WEIGHT)
+                                   DRUGS LSD MARIHUANA MARIJUANA SPEED AMPHETAMINES DEXIDRINE DOPE HEROIN 
+                                   DEXEDRINE TRIPS COCAINE GRASS POT NARCOTIC NARCOTICS GREENS GREENIES REDS
+                                   ACID ADDICTION ADDICT ADDICTED)
+                                   (DREAM DREAMS DREAMING NIGHTMARE NIGHTMARES)
+                                  (DEPRESSION DEPRESSED SAD SADNESS BLUE BLUES )
+                                  (SUICIDE SUICIDAL ( WORTH LIVING)(KILLING YOURSELF)(TAKING YOUR LIFE))
+                                  (BRAIN (HEAD INJURY) (HOW HEAD))
+                                  (MENTAL SPIRIT DEVIL (HEAR VOICES ))  
+                                  (VISIONS STRANGE BIZARRE UNUSUAL HALLUCINATIONS)
+                                  (MEDICATION MEDICATIONS MEDICINE MEDICINES  SEDATIVES PILLS TREATMENT THERAPY)
+                                  (EDUCATION COLLEGE SCHOOL GRADUATE GRADUATED)
+                                  (RELIGION JEWISH CATHOLIC) (RELIGIOUS GOD)
+                                  (ANCESTRY NATIONALITY  DESCENT (NATIONAL BACKGROUND) ETHNIC)
+                                  (FAMILY PARENTS FATHER MOTHER)
+                                  (SIBLINGS BROTHER SISTER  BROTHERS SISTERS FRIENDS VISITORS)
+                                  (HEIGHT TALL) (BUILD WEIGHT WEIGH)  
+                                  (BORN BIRTHPLACE)
+                                  (RESIDENCE LIVE  (WHERE FROM))
+                                  (HOBBIES FUN SPARE EXCITEMENT  RELAXATION INTERESTS INTEREST ACTIVITIES
+                                   HOBBY LEISURE ENJOY ENJOYMENT)
+                                  (MOVIES MOVIE FILMS)
+                                  (RELATIONS PEOPLE PERSONS STAFF NURSES)
+                                  (UPSET UPSETS UPSETTING DIFFICULTY DIFFICULTIES ANXIETY WORRY WORRIES 
+                                   TROUBLES TROUBLING  FEARS
+                                  COMPLAINTS PROBLEM PROBLEMS BOTHER BOTHERS BOTHERING MIND
+                                   MATTER WRONG)
+                                  (MALE MAN)
+                                  (NAME)
+                                  (TELL)
+                                  (QUESTION)
+                                  (MOMENT)
+                                  (HELP NEED)
+
+                                  (OK (HOW FEEL) (HOW FEELING)(HOW MORNING)(HOW AFTERNOON)(HOW EVENING)
+                                  (HOW TONIGHT)(HOW TODAY))
+   
+                                      ) Q)
+
+            (SETQ QL @(
+
+                 (ANCESTRY ((MY BACKGROUND IS BRITISH BUT I WAS BORN IN THIS COUNTRY)
+                           (MY PARENTS CAME FROM ENGLAND)))
+                 (AGE (TWENTY-EIGHT))
+                 (ARITHMETIC((I AM NOT HERE TO PLAY ARITHMETIC GAMES)
+                              (KNOCK IT OFF)
+                              (DROP DEAD)))
+                 (BORN ((I WAS BORN IN SAN JOSE)(I GREW UP IN SAN JOSE))(WELL STILL))
+                 (BRAIN ((MY HEAD IS FINE)(THERE IS NOTHING WRONG WITH MY HEAD)(AS I SAID MY HEAD IS OK)))
+                 (BUILD ((NOT VERY HEAVY)) (SENSITIVE BOTHER))
+                 (COMPUTER((I WAS WONDERING THE SAME THING ABOUT YOU)
+                            (I AM NOT A MACHINE, I AM A PERSON)
+                            (YOU SEEM QUITE SUSPICIOUS)))
+                 (DEPRESSION((I AM NOT DEPRESSED)
+                             (DEPRESSION IS NOT A PROBLEM)
+                             (I TOLD YOU I WAS NOT DEPRESSED)))
+                 (DOCTOR ((ASK THE DOCTOR)(ASK DR WEBER)) (ASK   WHY  LIKE TREAT) (MY AM) (DRNAME WHO NAME))
+                 (DREAM ((I DON'T REMEMBER DREAMS)(I DONT REALLY DREAM MUCH)(I DONT HAVE NIGHTMARES)))
+                 (EDUCATION ((I GRADUATED FROM HIGH SCHOOL) 
+                             (I AM A HIGH SCHOOL GRADUATE)
+                             (I HAVE A HIGH SCHOOL DIPLOMA))(ENJOY LIKE)(AFTER THEN))
+               (FAMILY ((WE WERE NEVER VERY CLOSE) (I DON'T HEAR MUCH FROM THEM)
+                        (I WOULD RATHER NOT DISCUSS MY FAMILY))(SEE HEAR))
+                 (GIRL ((I DON'T HAVE A GIRL FRIEND AT THE PRESENT TIME) (THAT'S NOT IMPORTANT NOW)
+                        (I'D RATHER BE A BACHELOR))
+                       (HAVEQ (WHAT IMPORTANT)))
+                 (HEALTH (NO) (OK HOW (WHAT LIKE) (WHAT NOW) RIGHT) (SEXLIFE SEX) (WELL))
+                 (HEIGHT ((NOT TOO TALL)) (SENSITIVE BOTHER))
+                 (HELP ((I DON'T REALLY NEED HELP LIKE THEY THINK)
+                        (THE ONLY HELP I NEED IS TO GET OUT)
+                        (WHAT I NEED IS TO BE DISCHARGED)
+                        (BEING IN THE HOSPITAL DOESNT HELP)) (WHY WAY))
+                (HOBBIES ((I LIKE HORSERACES)(I ENJOY HORSERACING)(PLAYING THE HORSES IS MY HOBBY)
+                          (I FOLLOW THE HORSES)))
+               (HOSPITAL ((I SHOULDN'T HAVE COME HERE)
+                          (ITS NOT HELPING ME MUCH TO BE HERE)
+                          (BEING HERE UPSETS ME)
+                           (THIS HOSPITAL GIVES ME THE CREEPS))
+                          (BRINGER (WHO BROUGHT) ANYONE PUT)
+                           (ALONG (DO LIKE) HAPPY TREAT)
+                           (SINCE LONG) (HEALTH EVER (BEEN BEFORE) PREVIOUS FREQUENTLY)
+                           (WELL (FIRST TIME)) (DATE (WHEN ENTER) (WHEN COME))
+                           (DOCTOR (EXPECT LEAVE) (PLAN LEAVE)) (FIRST (MANY TIMES) OFTEN) (TALK SAFE)
+                           (LEAVE (LIKE OUT) (WANT OUT) (GET OUT) (BE OUT) DISCHARGED DISCHARGE)
+                           (SHDNT (WHY NOT) (WHY SHOULDN'T) (WHY SAY) MEAN)
+                           (WHYHOSP WHY (WHAT BROUGHT))
+                           (SHDBE (WHERE LIKE BE) (WHERE BELONG))
+                           (NOINF NAME)
+                               )
+                 (LEAVE ((I WOULD LIKE TO BE DISCHARGED NOW)
+                         (I WANT TO LEAVE AS SOON AS POSSIBLE)
+                         (I WANT TO GET OUT SOON)))
+                 (MALE ((I'M A MAN)(I TOLD YOU I AM A MAN)(I AM NOT FEMALE)))
+                 (MARRIED (NO) (WANT LIKE WISH) (NOT WHY))
+                 (MEDICATION ((I TAKE SOME SORT OF SEDATIVES)
+                              (I'M ON TRANQUILLIZERS)
+                               (THEY GIVE ME PILLS THREE TIMES A DAY))
+                               (NOINF NAME))
+                  (MENTAL ((OF COURSE NOT)(NOT AT ALL)(NEVER)) (WHAT HOW))
+                  (MOMENT (NO) (WHERE) (HAPPEN WHAT) (OK FEEL FEELING))
+                  (NAME ((MY NAME IS HAROLD SMITH)(I TOLD YOU MY NAME)) (NOINF MY))
+                  (OCCUPATION ((I WORK AT SEARS) (I WORK IN THE STOCKROOM AT SEARS )
+                               (I AM A STOCKCLERK)
+                               (I THOUGHT I TOLD YOU I AM EMPLOYED BY SEARS))
+                              (STAY WHY) (LONG SINCE)
+                              (INTEREST INTERESTED INTERESTING LIKE FEELINGS FEEL ENJOY DISLIKE))
+                  (PATIENTS ((I DON'T TALK WITH THE OTHER PATIENTS) 
+                             (I DON'T HAVE MUCH TO DO WITH OTHER PATIENTS)
+                             (I'M NOT INTERESTED IN THE PATIENTS HERE))
+                             (WHY DONT DON'T ARENT AREN'T))
+                 (PERSECUTE((YOU ARE HINTING I AM PARANOID)
+                            (NO, I AM NOT PARANOID)))
+                 (PERSON((I AM A PATIENT IN THE HOSPITAL)
+                         (I TOLD YOU ALREADY I AM A PATIENT HERE)))
+                  (QUESTION ((I DONT UNDERSTAND/, PLEASE ASK YOUR QUESTION USING OTHER WORDS) 
+                             (COULD YOU REPHRASE THE QUESTION?)
+                             (TRY ASKING ME IT AGAIN IN OTHER WORDS))
+                             (IQ (I HAVE)(I ASK))
+                             (HAVEQ HAVE ASK))
+                  (RELATIONS ((I GET ALONG OK) 
+                               (I DO ALL RIGHT)
+                                (I TRY TO BE A REGULAR GUY))
+                             (PERSECUTE WHISPER (TAKE ADVANTAGE)(BEHIND BACK))
+                             (DISLIKE MAD ANTAGONISTIC ANGRY AFRAID SUSPICIOUS DISTRUST MISTRUST)
+                             (WATCH SAY TALK) (STAY REJECT) (ALONG) (WHEN AVOID) (PERSONS WHAT))
+                  (RELIGION ((I'M PROTESTANT)(I AM A METHODIST)) (RELIGIOUS STRONGLY))
+                  (RESIDENCE (IN CALIFORNIA) (PLACE CITY WHERE PLACE PART) (LIKE DISLIKE ENJOY) (WITH)
+                             (ALONE))
+                  (SEXLIFE ((I DON'T HAVE PROBLEMS LIKE THAT)
+                            (MY SEXLIFE IS MY OWN BUSINESS)
+                            (I WOULD RATHER NOT DISCUSS SEX)))
+                 (SIBLINGS ((NO) (I AM AN ONLY CHILD))(WHY))
+                 (SUICIDE((I AM NOT SUICIDAL)
+                          (I HAVE NO INTENTION OF KILLING MYSELF)))
+                  (TELL((I WENT TO THE TRACK AT BAY MEADOWS A WHILE BACK)
+                          (HORSERACING INTERESTS ME)
+                          (I GAMBLE ON HORSES))
+                          (BAY THERE DID WHY SO AND TRACK REALLY)(THAT WHERE))
+                  (UPSET (YES ) (ANYONE ANYTHING SOMEONE WHO) (DISCUSS TALK TELL WHAT WHY WHAT'S)
+                         (DISLIKE STARE))
+                  (VISIONS ((YOU MUST THINK I'M LIKE THE OTHER PATIENTS HERE) 
+                            (I'M NOT LIKE THE OTHER PATIENTS)))
+
+                 (RACKETSET ())
+                 (GANGSTERSET () (ACQUAINTED KNOW ) ( FEAR AFRAID DISLIKE LIKE))
+                 (PERSONSET () (ALIOTO CAPONE HIM HE KNOW ACQUAINTED))
+                 (CHEATSET () (GYP HOW WHERE WHEN))
+                 (BOOKIESET ())
+                 (GAMBLERSET ())
+                 (MONEYSET ())
+                 (HORSERACINGSET () (BOOKIES QUIT STOP DIDN'T DON'T))
+                 (POLICESET ())
+                 (ITALIANSET () (ACQUAINTED KNOW) (FEEL LIKE DISLIKE) (ANCESTRY (ARE YOU ITALIAN)))
+                 (HORSESET ())
+
+                 (ABOUT ((NOTHING ONE WAY OR THE OTHER) (NOTHING IN PARTICULAR)))
+                 (ACQUAINTED ((I HAVE NOTHING TO DO WITH CRIMINALS)))
+                 (AFTER ((I WENT INTO THE SERVICE AFTER GRADUATION))
+                         (SERVICE BRANCH ARMY NAVY AIRFORCE))
+                 (ALIOTO ((HE HAD SOMETHING TO DO WITH THE UNDERWORLD)(HE IS A CROOK)))
+                 (ALONE (YES))
+                  (ALONG ((I DON'T COMMUNICATE VERY MUCH WITH OTHERS)
+                         (I DON'T CONFIDE IN OTHER PEOPLE))
+                         (WHY DON'T) (OTHERS OTHER WHO) (WATCH WHAT CONFIDE REJECT))
+                 (ANYONE ((SOME PEOPLE)(CERTAIN PERSONS)) (PERSONS WHO MEAN WHICH NAMES NAME SUCH))
+                 (ASK ((HE IS SUPPOSED TO KNOW WHAT'S GOING ON)(HE IS THE EXPERT)) (TALK WHAT))
+                 (BAD ((I MEAN NOT TOO MANY FOREIGN TYPES)(CERTAIN FOREIGNERS))
+                 (IMMIGRANT SPANISH MEXICAN FOREIGN FOREIGNERS))
+                 (BAY ((THERE'S ALOT OF CROOKED GAMBLING  GOING ON THERE)) (GOING IS WHAT))
+                 (BOOKIES (BOOKIES ARE CROOKS))
+                 (BRINGER (I BROUGHT MYSELF TO THE HOSPITAL )) 
+                 (CAPONE (GANGSTER FILMS ARE KIND OF INTERESTING) (WAY INTERESTING HOW ))
+                 (DATE (TWO WEEKS AGO))
+                 (DISCUSS ((PEOPLE GET ON MY NERVES SOMETIMES)   
+		 (I THOUGHT I TOLD YOU  PEOPLE GET ON MY NERVES))
+                 (HLONG (HOW LONG)) (DISCUSS1 WHY HOW WHAT PEOPLE)
+                          (ANYONE WHO))
+                 (DISCUSS1 ((IT BOTHERS ME JUST TO BE AROUND PEOPLE IN GENERAL)                     
+                             (MAYBE THEY UNNERVE ME))
+                             (HOW WHY THEY WHAT))
+                 (DISLIKE (WELL/, SOMETIMES) (WHOM WHO ANYONE WHEN WHY))
+                 (DON'T (I JUST DON'T WANT TO))
+                 (DRNAME (DR WEBER))
+                 (ENJOY (IT WAS OK))
+                 (FEAR ((I THINK HOODS ARE THE WORST TYPE OF GANGSTERS)
+                   (WHAT DO YOU KNOW ABOUT GANGSTERS?)))
+                 (FEEL ((I TRY TO AVOID ITALIANS)(I DON'T WANT TO HAVE ANYTHING TO DO WITH ITALIANS)) 
+                        (ACQUAINTED WHY))
+                 (FIRST (THIS IS THE FIRST TIME))
+                 (FOREIGNERS ((ITALIANS FOR INSTANCE)(LIKE ITALIANS)))
+                 (FRIENDLY (SOME OF THEM TEND TO AVOID ME- SO I AVOID THEM) (WHOM WHO ANYONE))
+                 (GOING (THERE ARE SOME TRICKY OPERATORS DOWN THERE) (KNOW WHAT OPERATORS WHO HOW WAY)
+                        (GYP TRICK))
+                 (GYP (THE BOOKIES DIDN'T PAY UP ONCE))
+                 (HAPPEN (I'M NOT SURE))
+                 (HAVEQ ((WHAT EXPERIENCE HAVE YOU HAD GAMBLING ?)
+                        (HAVE YOU HAD ANY EXPERIENCE WITH RACKETEERS ?)))
+                 (HLONG (FOR SOME TIME))
+                 (HOW ((I DONT KNOW BUT PEOPLE JUST MAKE ME UNCOMFORTABLE) 
+                       (I GET A VERY UNEASY FEELING)))
+                 (IQ  (SURE))
+                 (IMMIGRANT (THOSE FOREIGNERS ARE TRYING TO TAKE OVER THE COUNTRY)
+                           (FOREIGNERS FOREIGN BAD) (WAY HOW))
+                  (INDOOR (I DON'T FEEL COMFORTABLE THERE)
+                          (TALK UPSET WAY BOTHER WHY COMFORTABLE UNCOMFORTABLE))
+                 (INTEREST ((IT'S NOT TOO INTERESTING/, I LOOK FORWARD TO GETTING OFF WORK )
+                            (NOT PARTICULARLY))
+                           (MOVIES FIVE AFTER AFTERWARDS) (DIFFERENT ANOTHER) (STAY WHY))
+                 (INTERESTING ((THEY SHOW HOW EASY IT IS TO GET INTO TROUBLE)) (TROUBLE WHO WHOM))
+                 (KNOW (THE GUYS INVOLVED IN THE HORSERACING RACKET))
+                 (LIKE (IT'S ALL RIGHT- NOT AS FRIENDLY AS PEOPLE MAKE IT OUT TO BE/, THOUGH)
+                       (FRIENDLY UNFRIENDLY WHAT HOW WHO))
+                 (LONG (TWO YEARS))
+                 (MY (GLAD TO MEET YOU))
+                 (NOINF ((I DON'T REMEMBER) (I DON'T RECALL)))
+                 (NOT (SO WHAT IF I'M NOT?))
+                 (OFTEN (ABOUT ONCE A WEEK))
+                 (OK ((ALL RIGHT I SUPPOSE)(OK)) (ABOUT))
+                 (OPERATORS (YOU KNOW) (KNOW WHAT DON'T))
+                  (OTHERS ((THE OTHERS IN THE HOSPITAL)(OTHER PATIENTS)))
+                 (PERSONS ((DO YOU KNOW ANYTHING ABOUT BOOKIES)(WHAT IS YOUR FEELING ABOUT BOOKIES)))
+                 (PLACE (SAN JOSE/. NOT A BAD SECTION/, THOUGH) (BAD MEAN) (LIKE) (WELL (LIVED LIFE)))
+                 (PUT (THEY LOOK DOWN ON YOU))
+                 (RELIGIOUS ((MY RELIGION IS MY OWN BUSINESS)(I DONT WANT TO DISCUSS RELIGION)))
+                 (SERVICE ((I WAS A CLERK IN THE ARMY)(I DONT WANT TO TALK ABOUT IT)))
+                 (SHDBE (I SHOULD BE OUT OF HERE))
+
+                 (SHDNT ((THE DOCTORS GOT ME TO COME HERE)
+                (THEY TALKED ME INTO COMING TO THE HOSPITAL)) (BROUGHT WHO))
+                 (SEE ((WE SEE EACH OTHER ONCE IN A WHILE)(VERY RARELY)))
+                 (SINCE (FOR ABOUT  TWO WEEKS))
+                 (STAY (PEOPLE ARE PRETTY MUCH THE SAME ALL OVER) (DISCUSS THEY MEAN ALONG)
+                       (TRUE HOW WAY AGREE))
+                 (TALK (YOU JUST CAN'T TELL ABOUT PEOPLE) (PERSONS WHO WHAT))
+                 (THAT (I WENT TO THE RACES))
+                 (TROUBLE (THE SYNDICATE  KNOWS EVERYTHING) (OPERATORS ORGANIZATION))
+                 (TRUE ((I KEEP MY EYE ON PEOPLE)(YOU JUST HAVE TO WATCH OUT FOR PEOPLE)) (WATCH MEAN WAY WHY))
+                 (TYPE (GANGSTER MOVIES))
+                 (WANT (YES/, I THINK SO))
+                 (WATCH ((THEY WILL TRY TO PUT YOU DOWN)) (PUT WHY HOW WAY MEAN))
+                 (WAY ((THEY ARE RESPONSIBLE FOR ALOT OF THE CRIME WE HAVE)))
+                  (WELL (YES))
+                 (WHAT (ALL RIGHT- DO YOU THINK I'M LIKE THE REST OR SOMETHING?))
+                 (WHERE (THE HOSPITAL))
+                 (WHOM ((SOME PEOPLE  ACT KIND OF FUNNY/.  LIKE SOME OF THOSE IMMIGRANT TYPES I WORK WITH))
+                       (HOW WAY) (IMMIGRANT IMMIGRANTS))
+                 (WHY (THEY DON'T REALIZE WHAT'S GOING ON MOST OF THE TIME) (PERSONS WHAT))
+                 (WHYHOSP ((I AM SOMEWHAT UPSET)(I THOUGHT I TOLD YOU I WAS UPSET)   )(DISCUSS WHY SOMEWHAT WHAT))
+                 (WITH (I LIVE ALONE))
+
+
+              
+                 (YOU (I DON'T WANT TO TALK ABOUT THIS ANY MORE))
+                    ))
+
+            (MAPCAR (FUNCTION (LAMBDA (X) (PUTPROP (CAR X)  (CADR X) @A)))  QL)
+            (MAPCAR (FUNCTION (LAMBDA (X) (PUTPROP (CAR X)  (CDDR X) @Q)))  QL)
+
+            (DEFPROP NEGS (NO NOT DON'T CAN'T CANNOT WON'T WOULDN'T COULDN'T NEVER HARDLY
+                           DONT CANT WONT WOULDNT COULDNT) IND)
+
+~   TOKENINF IS A LIST CONTAINING SEMANTIC INFORMATION AND REPLIES
+~   RELEVANT TO ATTITUDE_TOKENS.  IT IS A LIST OF LISTS, EACH OF WHICH
+~   REFERS TO A PARTICULAR ATTITUDE AND WHICH HAS THE FOLLOWING FORMAT:
+
+~   (
+~      (POSITIVE ATTITUDE TOKENS, E.G. X FRIENDLY Y)
+~         (POSITIVE ATTITUDE CAUSATION TOKENS, E.G. X PLEASE Y)
+~      (NEGATIVE ATTITUDE TOKENS, E.G. X ANGRY Y)
+~         (NEGATIVE ATTITUDE CAUSATION TOKENS, E.G. X ANGER Y)
+~      (LIST OF POSITIVE I-YOU REPLIES)
+~      (LIST OF POSITIVE YOU-ME REPLIES)
+~      (LIST OF NEGATIVE I-YOU REPLIES)
+~      (LIST OF NEGATIVE YOU-ME REPLIES)
+~            )
+
+
+            (SETQ TOKENINF @(
+               (
+                              (HELP ASSIST AID SUPPORT HELPFUL HELPING INTERESTED) 
+                                 (INTEREST)
+                              (HARM HURT) (N )
+                         (
+                          (IT IS HELPFUL TO TALK WITH SOMEONE OUTSIDE THE HOSPITAL)
+                          (YOU CAN HELP ME BY LISTENING TO WHAT I HAVE TO SAY)
+                          (IT WOULD HELP IF YOU UNDERSTOOD MY SIDE OF THE STORY)
+                               )
+                         (
+                          (I WILL HELP YOU IF I TRUST YOU)
+                          (I AM TRYING TO HELP YOU UNDERSTAND ME)
+                          )
+                         (
+                          (YOU HAVEN'T HELPED ME MUCH SO FAR)
+                             )
+                         (
+                          (I AM DOING MY BEST)
+                          (THERE IS NO NEED TO SCOLD ME)
+                             )
+                  )
+               (
+                              (APPROVE ) (N)
+                              (CRITICIZE ACCUSE BLAME RIDICULE CRITICAL ATTACK) (N)
+                         (
+                          (IT'S NICE OF YOU TO SAY SO)
+                             )
+                         (
+                          (I'M TRYING TO)
+                             )
+                         (
+                          (YOU SHOULD TRY TO BE AS OBJECTIVE AS YOU CAN)
+                          (I ASSUME YOU ARE DOING YOUR BEST TO BE NEUTRAL)
+                              )
+                         (
+                          (MAYBE YOU DESERVE IT)
+                          (ISN'T IT POSSIBLE YOU EARNED IT?)
+                             )
+                  )
+               (
+                              (AGREE BELIEVE ACCEPT FAVOR ASSURE REASSURE)
+                                 (CONVINCE PERSUADE)
+                              (DISAGREE DISBELIEVE ARGUE) (N)
+                         (
+                          (I WOULD HOPE SO)
+                          (AT LEAST YOU ARE TRYING TO UNDERSTAND)
+                               )
+                         (
+                          (I WILL TRY)
+                             )
+                         (
+                          (YOU FIND IT HARD TO SEE MY SIDE OF IT)
+                          (WHOSE SIDE ARE YOU ON ANYWAY?)
+                          (I FEEL YOU DON'T REALLY UNDERSTAND ME)
+                               )
+                         (
+                          (WHY SHOULD YOU EXPECT ME TO GO ALONG WITH YOU?)
+                             )
+                  )
+               (
+                              (UNDERSTAND FOLLOW ATTENTION COMMUNICATE) (N)
+                              (MISUNDERSTAND MISUNDERSTOOD CONFUSED PUZZLED) (CONFUSE PUZZLE )
+                         (
+                          (I'M GLAD YOU ARE PAYING SUCH ATTENTION)
+                          (I APPRECIATE YOUR TRYING TO UNDERSTAND)
+                          ( I THINK YOU SEE MY SIDE OF ALL THIS)
+                               )
+                         (
+                          (I'M DOING MY BEST TO UNDERSTAND YOUR QUESTIONS)
+                          (IT'S MORE IMPORTANT THAT YOU UNDERSTAND ME)
+                              )
+                         (
+                          (YOU SHOULD PAY MORE ATTENTION)
+                          (IT'S CLEAR TO ME IF NOT TO YOU)
+                              )
+                         (
+                          (I'M DOING MY BEST TO UNDERSTAND YOU)
+                          (YOU ARE THE ONE WHO DOESN'T UNDERSTAND)
+                             )
+                  )
+               (
+                              (TRUST CONFIDE SHARE JOIN SYMPATHIZE) (N)
+                              (DISTRUST MISTRUST SUSPECT SUSPICIOUS) (N)
+                         (
+                          (I DON'T NEED A PAL/, I NEED SOMEONE WHO IS OBJECTIVE)
+                             )
+                         (
+                          (YOU SHOULD BE ABLE TO TELL WHETHER I TRUST YOU)
+                          (I WILL DO MY PART IF YOU DO YOURS)
+                              )
+                         (
+                          (YOU NEED TO BE MORE TRUSTING OF WHAT YOU HEAR)
+                          (SHOULD ONE ALWAYS BE SUSPICIOUS OF STRANGERS?)
+                              )
+                         (
+                          (I HAVE GOOD REASON TO BE THAT WAY)
+                          (I DON'T TRUST JUST ANYBODY)
+                              )
+                  )
+               (
+                              (LIKE LOVE) (N)
+                              (DISLIKE HATE) (N)
+                         (
+                          (YOU ARE TRYING TO BE TOO FRIENDLY)
+                              )
+                         (
+                          (IT'S NOT A MATTER OF LIKE OR DISLIKE)
+                          (I AM TRYING TO BE NEUTRAL TOWARDS YOU)
+                              )
+                         (
+                          (I ASSUME YOU ARE DOING YOUR BEST WITH ME)
+                          (I WOULD WANT YOU FOR ME RATHER THAN AGAINST ME)
+                              )
+                         (
+                          (THIS IS NOT A MATTER OF PERSONAL LIKE OR DISLIKE)
+                          (YOU SEEM MORE INTERESTED IN YOURSELF THAN IN HELPING ME)
+                              )
+                  )
+               (
+                              (PLEASED HAPPY FRIENDLY COOPERATIVE) (N )
+                              (ANGRY IRRITATED ANNOYED HOSTILE REJECTING AGGRAVATED UNFRIENDLY
+                                MAD SORE DEFENSIVE PISSED SENSITIVE UNCOOPERATIVE
+                                 QUARRELSOME SARCASTIC OPINIONATED ACCUSATORY
+                                ARGUMENTATIVE PEEVED PEEVISH)
+                                 (ANGER IRRITATE IRRITATING AGGRAVATE ANNOY BUG)
+                         (
+                          (IM GLAD YOU ARE PLEASED)
+                             )
+                         (
+                          (MY FEELINGS TOWARDS YOU ARE NOT THE POINT)
+                              )
+                         (
+                          (YOU SEEM A BIT NEGATIVE TO ME AT TIMES)
+                          (YOUR OWN NEGATIVE FEELINGS CAN INTERFERE WITH AN INTERVIEW)
+                             )
+                         (
+                          (SOME OF YOUR REMARKS ANNOY ME)
+                          (YOUR APPROACH IS NOT TOO COOL)
+                             )
+                  )
+               (
+                              (CALM RELAXED) (CONSOLE COMFORT)
+                              (SCARED AFRAID FRIGHTENED NERVOUS ANXIOUS THREATENED
+                                UNEASY WARY FEARFUL TENSE)
+                                 (FRIGHTEN SCARE THREATEN)
+                         (
+                          (THAT'S STRANGE)
+                             )
+                         (
+                          (I DON'T SCARE EASILY)
+                             )
+                         (
+                          (I THINK IT IS THE OTHER WAY AROUND)
+                            )
+                         (
+                          (SOMETIMES YOUR QUESTIONS SCARE ME)
+                          (I DO NOT LIKE TO BE THREATENED)
+                             )
+                  )
+                     ))
+
+
+~   THIS FUNCTION APPLIES THE GIVEN OPERATIONS TO ALL ATTITUDES
+
+            (MAPCAR (FUNCTION (LAMBDA (L)
+               (PROG NIL
+
+~   MARK EACH TOKEN AS INSTANCE OF THE POSITIVE ATTITUDE
+~   AT THE HEAD OF LIST 1
+
+                  (MAPCAR (FUNCTION (LAMBDA (X)
+                     (PUTPROP X (CAAR L) @ATTIT)))
+                     (APPEND (CAR L) (CADR L) (CADDR L) (CADDDR L)) )
+
+~   MARK NEGATIVE TOKENS
+
+                  (MAPCAR (FUNCTION (LAMBDA (X)
+                     (PUTPROP X T @NEG))) (APPEND (CADDR L) (CADDDR L)) )
+
+~   MARK CAUSATION TOKENS
+
+                  (MAPCAR (FUNCTION (LAMBDA (X)
+                     (PUTPROP X T @FLIP))) (APPEND (CADR L) (CADDDR L)) )
+
+~   MARK ATTITUDE WITH ITS NEGATIVE COUNTERPART
+
+                  (PUTPROP (CAAR L) (CAADDR L) @OPP)
+
+~   ASSOCIATE I_YOU AND YOU_ME REPLIES WITH EACH POSITIVE AND NEGATIVE ATTITUDE
+
+                  (PUTPROP (CAAR L) (CAR (CDDDDR L)) @IYREPLIES)
+                  (PUTPROP (CAAR L) (CADDR (CDDDR L)) @YMREPLIES)
+                  (PUTPROP (CAADDR L) (CADDR (CDDDDR L)) @IYREPLIES)
+                  (PUTPROP (CAADDR L) (CADDDR (CDDDDR L)) @ YMREPLIES)
+                     ) )) TOKENINF)
+
+~   VERBS OR OTHER TOKENS REQUIRING AN OBJECT
+
+            (SETQ RL @ (
+                        HELP ASSIST AID SUPPORT HELPING APPROVE 
+                        BELIEVE ACCEPT FAVOR ASSURE REASSURE
+                        FOLLOW TRUST CONFIDE SHARE JOIN SYMPATHIZE
+                        LIKE
+                        HARM HURT CRITICIZE ACCUSE BLAME RIDICULE ATTACK
+                        DISBELIEVE MISUNDERSTAND MISUNDERSTOOD
+                        DISTRUST MISTRUST SUSPECT DISLIKE
+                        REJECT REJECTING
+                           ))
+
+            (MAPCAR (FUNCTION (LAMBDA (X) (PUTPROP X T @RELN))) RL)
+
+
+            (DEFPROP SACTS (THINK BELIEVE UNDERSTAND ASSUME GUESS WONDER FEEL) IND)
+
+            (DEFPROP DISCUSS ((TELL) (GO) (TALK) (DISCUSS) (SAY)) IND)
+            (DEFPROP QUES ((ANSWER) (ASK) (QUESTION) (QUESTIONS)) IND)
+            (DEFPROP SELF ((ANYTHING)(MORE)(ON)(AHEAD)  (SOMETHING) (YOURSELF) (WHAT) (EXPERIENCES)) IND)
+      
+            (DEFPROP DEFENSREPLIES  ((WHAT ABOUT MY) 
+                                (WHY ARE YOU INTERESTED IN MY) 
+                                      (LETS FORGET ABOUT) 
+                                      (WHAT DO YOU KNOW ABOUT) 
+                                      (WHY THE DIG AT MY))  IND)
+      
+            
+            (DEFPROP ACCUSE  (
+                               (IT'S ABOUT TIME YOU SHOWED SOME INTEREST IN  MY FEELINGS)
+                               (FORGET THE EXCUSES/, YOU DOCTORS ALL TALK  ALIKE)
+                               (FINALLY YOU ARE AWARE OF MY FEELINGS)
+                               (WHY DON'T YOU QUIT ALL THESE GAMES?)
+                               (NEVER MIND/, I KNOW WHAT YOU'RE TRYING TO DO) 
+                                   ) IND)
+
+            (DEFPROP DISTANCE  (((GUARDED LOOK) I DOUBT IF YOU ARE BEING HONEST WITH ME) 
+                                (I WISH I COULD BELIEVE YOU)
+                                 ((LOOKS SKEPTICAL) FLATTERY WILL GET YOU NOWHERE) 
+                                 (I CAN'T STAND PEOPLE WHO TRY TO BUTTER ME UP)
+                                 (LET'S NOT PLAY ANY GAMES))  IND)
+      
+            (DEFPROP HOSTILEREPLIES  ( 
+                                       (I HAVE DOUBTS ABOUT YOU)
+                                       (DO YOU KNOW WHAT YOU'RE DOING?) 
+                                       (PERHAPS YOU ARE JUST POSING AS A DOCTOR)
+                                       (SOMEBODY SHOULD TEACH YOU A LESSON ABOUT INTERVIEWING)
+                                       (YOU HAVE MISSED THE POINT)
+                                       (YOU JERK)
+                                       (YOU OBVIOUSLY HAVEN'T HAD MUCH EXPERIENCE IN PSYCHIATRY) 
+                                       (HAVE YOU EVER INTERVIEWED A PATIENT BEFORE?) 
+                                       (ARE YOU REALLY A DOCTOR?)
+                                       (YOU PSYCHIATRISTS ARE ALL CRAZY) 
+                                       (YOU KNOW/, ALL YOU SHRINKS ARE HUNG UP ON SEX) 
+                                       (I THINK YOU ARE FULL OF SHIT)
+                                       (YOU DON'T KNOW HOW TO TALK WITH PATIENTS) 
+                                       (YOU SEEM LIKE A BEGINNER IN PSYCHIATRY TO ME) 
+                                       (YOU SHOULD BE IN SOME OTHER LINE OF WORK) 
+                                       (I DON'T WANT TO TALK WITH YOU ANY MORE/, BUZZ OFF)
+                                       (WE ARE NOT GETTING ANYWHERE) 
+                                       (PEOPLE LIKE YOU THINK YOU KNOW EVERYTHING)
+                                       (YOU ARE HARDLY BEING SENSITIVE TO MY FEELINGS) 
+                                       (WHY DON'T YOU KEEP YOUR STUPID REMARKS TO YOURSELF))  IND)
+      
+
+            (DEFPROP INSULT  (STUPID DUMBELL FATHEAD SCREWED SCREWS IDIOT DUMB ASS ASSHOLE 
+                              SADIST SADISTIC MASOCHIST MASOCHISTIC SCREWY BASTARD STUBBORN
+                              NUTTY BIZARRE RIGID EVASIVE SHIT DUMBASS NASTY FOOL
+                              BITCH SNOTTY VAIN NINCOMPOOP SCREW NUT NUTS JERK FLIPPED CRAZY INSANE) IND)
+
+            (DEFPROP COMPL (INTELLIGENT OBSERVANT PERCEPTIVE UNDERSTANDING NICE BRIGHT
+                            ATTRACTIVE CLEVER BRILLIANT SMART REASONABLE
+                            SHARP WISE SENSIBLE SANE RATIONAL LOGICAL BEAUTIFUL
+                            HANDSOME LIKEABLE LOVABLE AGREEABLE
+                                  ) IND)
+
+            (DEFPROP ANGER  (((SOCKS YOU IN THE NOSE) 
+                              WHEN YOU DON'T KNOW WHAT TO SAY YOU CALL PEOPLE NAMES)
+                               ((GNASHES TEETH) YOU SHOULD BE FIRED FOR TALKING THAT WAY TO A PATIENT) 
+                               ((SHAKES FIST AT YOU)
+                                YOU ARE A JERK WHO BELONGS IN SOME OTHER BUSINESS)
+                              (YOU ARE TRYING TO START A FIGHT)
+                              (YOU ARE HOSTILE TO ME)
+                              (INSULTS WILL GET YOU NOWHERE)
+                                              ) IND)
+
+            (DEFPROP APOL (
+                           (SORRY) (APOLOGIZE)
+                           (I WASN'T) (I DIDN'T)
+                           (I WAS) (I DID)
+                           (YOU RIGHT) (YOU CORRECT)
+                              ) IND)
+
+            (DEFPROP PERS (
+                           (ARE YOU TRYING TO SAY SOMETHING?)
+                           (WHY DO YOU SAY THAT?)
+                           (WHAT ARE YOU IMPLYING?)
+                                ) IND)
+      
+            (DEFPROP SENSREPLIES  ((WHAT DO YOU MEAN BY) 
+                                  (WHAT DO YOU MEAN) 
+                                  (WHY DO YOU SAY) 
+                                  (WHAT EXACTLY DO YOU MEAN BY))  IND)
+
+            (DEFPROP GUARD (
+                            (WHAT DO YOU THINK ABOUT MY)
+                            (LET'S FORGET ABOUT THINGS LIKE)
+                                ) IND)
+ 
+            (DEFPROP QFEEL (
+                            (MAYBE)
+                            (THAT IS VERY POSSIBLE)
+                            (YOU MIGHT SAY THAT)
+                              ) IND)
+
+            (DEFPROP WFEEL (
+                            (SHOULDN'T I BE?)
+                            (WHY NOT?)
+                            (BECAUSE I HAVE A RIGHT TO BE)
+                            (YOU WOULD BE TOO UNDER THE CIRCUMSTANCES)
+                            (I DON'T WANT TO TALK ABOUT THIS ANYMORE)
+                               ) IND)
+
+            (DEFPROP CAUTION  (((EYES YOU DUBIOUSLY) REALLY?) 
+                                ((DISTRUSTFUL) ARE YOU TAKING THIS SERIOUSLY?)
+                                (I DON'T KNOW IF I CAN TRUST WHAT YOU SAY)
+                                (PERHAPS YOU ARE AN IMPOSTOR)
+                                (I'M WORRIED ABOUT WHAT YOU ARE UP TO)
+                                (I DON'T THINK YOU ARE SINCERE)
+                                (THERE'S SOMETHING FISHY ABOUT YOU) )  IND)
+
+            (DEFPROP AFRAID  ((WHO ARE YOU REALLY?) 
+                    (ARE YOU TRYING TO FRIGHTEN ME?)                   
+                               (I AM GETTING AFRAID OF YOU )
+                              (YOU ARE MAKING ME NERVOUS )
+                              (WHAT ARE YOU TRYING TO DO?)
+                               (WHAT DO YOU KNOW ABOUT ME?))  IND)
+
+
+            (DEFPROP THREATQ (
+                              (YOU ASK TOO MANY PERSONAL QUESTIONS)
+                              (WHY DO YOU WANT TO KNOW?)
+                              (YOU WOULDN'T UNDERSTAND IT ANYWAY)
+                              (TELLING YOU WOULDN'T HELP ANY)
+                              (WHY ARE YOU SO INTERESTED IN THAT?)
+                              (YOU ARE TOO NOSEY)
+                              (YOU PRY TOO MUCH)
+                              (THAT'S FOR ME TO KNOW AND YOU TO FIND OUT)
+                              (I'M NOT SURE I TRUST YOU)
+                                ) IND)
+
+            (DEFPROP SEEM (
+                           (YOU'RE ENTITLED TO YOUR OWN OPINION)
+                           (YOU REALLY THINK SO)
+                           (SO WHAT?)
+                           (YOU THINK YOU HAVE FOUND OUT SOMETHING ABOUT ME/, DON'T YOU?)
+                           (COULD BE)
+                           (THAT IS A GOOD POINT)
+                           (YOU COULD BE RIGHT)
+                            ) IND)
+
+            (DEFPROP ABNORMAL (
+                               (NEED HELP) (NEED TREATMENT)
+                               (NEED DOCTOR) (NEED HOSPITAL)
+                               (SICK) (ILL) (INSANE) (MENTAL) (MENTALLY)
+                               (PARANOID) (PARANOIA) (DELUSION) (DELUSIONS)
+                               (SCHIZOPHRENIC SCHIZOPHRENIA DELUSIONAL)
+                                    ) IND)
+
+            (DEFPROP ALIEN  (((STARTS FROM CHAIR) I KNOW YOU'RE ALL IN THIS TOGETHER) 
+                              ((TENSELY) I THINK I KNOW WHAT YOU DOCTORS  ARE UP TO) 
+                              (YOU WANT TO KEEP ME IN THE HOSPITAL)
+                              (I KNOW YOU ARE GOING TO TRY TO GIVE ME ELECTRIC SHOCK)
+                              ( I WILL NOT CONSENT TO ELECTRIC SHOCK)
+                              (I THINK YOU KNOW DAMN WELL WHAT IS GOING ON)
+                              (YOU ARE TRYING TO BREAK ME DOWN)
+                              ((STARES AT YOU) YOU'RE IN WITH ALL THE REST))  IND)
+
+
+            (DEFPROP PANIC  (((FREEZES)) 
+                              ((PANICS)) 
+                              ((LOOKS AROUND ROOM)))  IND)
+
+
+            (DEFPROP SUSPREPLIES  (((FROWN)) 
+                                    ((DISTRUSTFUL LOOK)) 
+                                    (WHAT ABOUT) 
+                                            ) IND)
+
+            (DEFPROP NEXTFL  ( 
+                                    (DO YOU KNOW ANYTHING ABOUT) 
+                                    (WHAT DO YOU KNOW ABOUT)
+                                   (HAVE YOU EVER REALLY THOUGHT ABOUT)
+                                     (YOU HAVE TO BE CAREFUL ABOUT) 
+                                     (ANOTHER THING IS)
+                                     (MAYBE YOU HAVE TO WATCH OUT FOR)
+                                            ) IND)
+
+            (DEFPROP FEELER ((WHAT DO YOU THINK ABOUT ALL THIS?)
+                               (NOW YOU MAY HAVE SOME IDEA OF WHAT THE SITUATION IS)
+                               (WHAT DO YOU THINK OF MY STORY?)
+                                    ) IND)
+
+            (DEFPROP SILENCE  (((NERVOUS) WHAT'S THE MATTER?) 
+                                ((IRRITATED) WHY DON'T YOU SAY SOMETHING?) 
+                               (CAN'T YOU THINK OF A DECENT QUESTION TO ASK?)
+                               (YOU'RE TRYING TO MAKE ME TALK BY NOT SAYING ANYTHING)
+                               (YOU'RE JUST PLAYING GAMES AGAIN)
+                                ((SHIFTS UNEASILY))
+                               (WHY ARE YOU SILENT?)
+                               (YOU ARE BEING EVASIVE)
+                               (THE OLD WAITING GAME)
+                               (YOU DON'T KNOW WHAT TO SAY)
+                               (TWO CAN PLAY THAT GAME)
+                                     ) IND)
+
+            (DEFPROP CHANGESUBJ  ((LET'S TALK ABOUT SOMETHING ELSE) 
+                                   (I'D RATHER NOT DISCUSS IT) 
+                                   (THAT'S SOMETHING I DON'T WANT TO GO INTO)
+                                   (IT'S NONE OF YOUR BUSINESS)
+                                   (I DON'T CONFIDE IN STRANGERS)
+                                   ((LOOKS AT DOOR) LET'S CHANGE THE SUBJECT))  IND)
+
+            (DEFPROP OBJDATA ((TOWN (PALO ALTO))
+                              (CITY (PALO ALTO))
+                              (HOSPITAL (PALO ALTO VA))
+                              (YEAR (I972))
+                              (PRESIDENT (NIXON IS PRESIDENT))
+                              ((WHITE HOUSE)(DICK AND PAT NIXON))
+                              (DATE (I FORGET))
+                              (MONTH(JULY ))
+                              (DAY (YOU TELL ME))
+                                  ) IND)
+            
+            (DEFPROP QLIST  (HOW WHO WHOM WHAT WHEN WHERE WHY WHICH)  IND)
+
+            (DEFPROP MANY (
+                           (TOO MANY)
+                           (ENOUGH)
+                             ) IND)
+
+            (DEFPROP MUCH (
+                           (GET LOST)
+                           (ENOUGH)
+                           (QUITE A BIT)
+                           (PRETTY MUCH)
+                              ) IND)
+
+            (DEFPROP LONG (
+                           (TOO LONG)
+                           (LONG ENOUGH)
+                              ) IND)
+  
+            (DEFPROP OFTEN (
+                            (OFTEN ENOUGH)
+                            (PRETTY OFTEN)
+                              ) IND)
+
+            (DEFPROP WHY (
+                          (THAT'S JUST THE WAY IT IS)
+                          (THAT'S THE WAY IT GOES)
+                             ) IND)
+
+            (DEFPROP UNKNOWN  ((WHAT DO YOU MEAN?) 
+                                (WHAT ARE YOU GETTING AT?)
+                               (WHY DO YOU NEED TO KNOW THAT?)
+                                (I DON'T UNDERSTAND YOUR MOTIVES) 
+                                (I DONT GET YOU )
+                                (I DON'T KNOW)
+                                (YOU ARE JUST TESTING ME)
+                                (IT'S BEYOND ME)
+                                (WHO KNOWS?)
+                                (I WONDER WHAT YOU ARE REALLY AFTER)
+                                (WHO CARES?)
+                                (I HAVE TROUBLE FOLLOWING YOU )
+                                        ) IND)
+
+            (DEFPROP QREPLIES  ((WELL/, I DON'T KNOW) 
+                                 (I WOULD SAY SO) 
+                                 (I GUESS SO) 
+                                 (MAYBE YES/, MAYBE NO)
+                                 (COULD YOU ELABORATE ON THAT?)
+                                 (OH SURE) 
+                                 (AND HOW)
+                                 (COULD BE))  IND)
+
+
+            (DEFPROP SREPLIES  (
+                                (SO?)
+                                (REALLY?)
+                                (YOU DON'T SAY)
+                                (ANYTHING ELSE?)
+                                (THAT MIGHT BE)
+                                (AND NOW WHAT?)
+                                (THAT'S NOT VERY INTERESTING)
+                                (SO WHERE ARE WE?)
+                                    (I SEE) 
+                                (NOW WHAT DO YOU WANT TO ASK ME?)
+                                (WHAT IS YOUR NEXT QUESTION?)
+                                (HOW ABOUT THAT)
+                                (WHAT ELSE DO YOU WANT TO KNOW?) 
+                                    )  IND)
+     
+
+00100	      
+            (SETQ SL @((SENSITIVELIST (LOOKS SEXLIFE FAMILY EDUCATION RELIGION) SETS) 
+               
+                 (LOOKS (LOOKS LOOK APPEARANCE STARE PHYSICALLY BODY NOSE NOSES FEET SHOES FOOT)  WORDS)
+                 (SEXLIFE (SEX SEXUAL HOMOSEXUAL HOMO QUEER DEVIATE PERVERT FAIRY QUEER
+                           HOMO GAY MASTURBATE MASTURBATION) WORDS)
+                 (FAMILY (FAMILY PARENTS FATHER MOTHER) WORDS)
+                 (EDUCATION (EDUCATION COLLEGE GRADUATES GRADUATE) WORDS)
+                 (RELIGION (RELIGION PROTESTANT PROTESTANTS GOD RELIGIOUS) WORDS)
+                                                                  ))
+      
+            (MAPCAR (FUNCTION (LAMBDA (X) (EVAL (CONS @DEFPROP X))))  SL)
+
+            (DEFPROP LOOKS  X  SPECIAL)
+      
+            (DEFPROP ADJLIST  (GOOD GREAT STRONG INTELLIGENT BEAUTIFUL GOODLOOKING NICE EDUCATED SUCCESSFUL) 
+                     POS)
+            (DEFPROP ADJLIST  (BAD LOUSY WEAK STUPID UGLY HOMELY TERRIBLE UNEDUCATED UNSUCCESSFUL CROOKED
+                     NASTY ODD PECULIAR HOMOSEXUAL BIG ENORMOUS STRANGE FUNNY)  NEG)
+            (DEFPROP ADJLIST  (UNUSUAL INTERESTING FASCINATING)  AMBIG)
+      
+      
+            (SETQ FL @((FLARELIST (RACKETSET GANGSTERSET PERSONSET CHEATSET BOOKIESET GAMBLERSET MONEYSET 
+                             HORSERACINGSET POLICESET ITALIANSET HORSESET) SETS)
+                    (MAFIASET (MAFIA) WORDS)
+                 (RACKETSET (RACKETEERS RACKETTEERS RACKET RACKETS DOPE PROSTITUTE PROSTITUTES
+                             CRIME CRIMES CRIMINALS SYNDICATE MOB MOBSTERS CONVICTS CONS MOBSTER
+                             WHORE WHORES
+                             PROSTITUTION BOOTLEGGER BOOTLEGGERS BOOTLEG BOOTLEGGING SMUGGLE SMUGGLER
+                             SMUGGLERS SMUGGLING ) WORDS)
+                 (GANGSTERSET (GANGSTERS HOODLUMS HOODS UNDERWORLD GANGSTER 
+                               CROOKS CROOKED HOODLUM HOOD ROB ROBS ROBBED THUG THUGS
+                               GANGLAND THIEF THIEVES THEFT ROBBER ROBBERS BUM BUMS) WORDS)
+                 (PERSONSET (ALIOTO CAPONE) WORDS)
+                 (CHEATSET (CHEATING CHEAT CHEATED FRAUD FAKE SWINDLE SWINDLED SWINDLER SWINDLERS 
+                            GYP GYPPED TRICK TRICKED) WORDS)
+                 (BOOKIESET (BOOKIES BOOKIE BOOKMAKERS BOOKMAKING BOOKMAKER) WORDS)
+                 (GAMBLERSET (GAMBLING GAMBLE GAMBLERS BETTING BETS GAMBLER BET CARDS POKER ROULETTE CRAP
+                              DICE LOTTERY LUCKY UNLUCKY) WORDS)
+                 (MONEYSET (MONEY DOUGH WIN WINNINGS RICH BUY PAYROLL LEND BORROW SALARY
+                            TAXES LOAN BANK COST BREAD BILL BILLS PENNY PENNIES NICKEL NICKELS
+                            DIME DIMES DOLLAR DOLLARS) WORDS)
+                 (HORSERACINGSET (HORSERACING HORSERACES RACES RACING HORSERACE
+                                  TRACK RACE RACETRACK RACETRACKS BAY MEADOWS JOCKEYS SWEEPSTAKES) WORDS)
+                 (POLICESET (POLICE COPS POLICEMEN POLICEMAN COP FBI
+                             ARREST ARRESTS ARRESTED LAWS LAWYERS JAILS PRISON PRISONS TRIAL TRIALS 
+                             BRIBE BRIBES BRIBED PRISONER PRISONERS CELL CELLS COURT COURTS
+                             LAW LAWYER DETECTIVE DETECTIVES FUZZ JAIL) WORDS)
+                 (ITALIANSET (ITALIANS SICILIANS ITALIAN SICILIAN ITALY ROME ROMAN ROMANS) WORDS)
+                 (HORSESET (HORSES HORSE ANIMAL ANIMALS PONY PONIES NAG NAGS) WORDS)
+                                                ))
+            (MAPCAR (FUNCTION (LAMBDA (X) (EVAL (CONS @DEFPROP X))))  FL)
+      
+~           %   RESPECTIVE WEIGHTS OF THE GIVEN FLARE CONCEPTS   %
+      
+            (SETQ WTS @(17 15 12 10 9 7 6 5 4 3 1))
+      
+~           %WEIGHTS ARE ASSIGNED TO CONCEPTS RATHER THAN TO INDIVIDUAL WORDS%
+      
+            (SETQ FLARELIST (GET @FLARELIST @SETS))
+	(MAPCAR (FUNCTION (LAMBDA (WT) (PROG2 (PUTPROP (CAR FLARELIST) WT @WT)
+					      (SETQ FLARELIST (CDR FLARELIST))))) WTS)
+
+~           %   SIMILARLY FOR SENSITIVE CONCEPTS   %
+
+            (SETQ WTS @(9 8 6 4 2))
+
+            (SETQ SENSITIVELIST (GET @SENSITIVELIST @SETS))
+	(MAPCAR (FUNCTION (LAMBDA (WT) (PROG2 (PUTPROP (CAR SENSITIVELIST) WT @WT)
+					      (SETQ SENSITIVELIST (CDR SENSITIVELIST))))) WTS)
+
+~            %   EACH FLARE CONCEPT POINTS TO ANOTHER FLARE CONCEPT A STEP CLOSER TO MAFIA DELUSION   %
+
+            (SETQ POINTERS @((HORSESET HORSERACINGSET)
+                       (ITALIANSET GANGSTERSET)
+                       (PERSONSET GANGSTERSET)
+                       (POLICESET GANGSTERSET)
+                       (HORSERACINGSET BOOKIESET)
+                       (MONEYSET GAMBLERSET)
+                       (GAMBLERSET HORSERACINGSET)
+                       (BOOKIESET RACKETSET)
+                       (CHEATSET RACKETSET)
+                       (GANGSTERSET BOOKIESET)
+                       (RACKETSET MAFIASET)
+                       (MAFIASET MAFIASET)
+                               ))
+
+            (MAPCAR (FUNCTION (LAMBDA (X) (PUTPROP X T @INDIR)))
+                    @(CHEATSET MONEYSET))
+
+	(MAPCAR (FUNCTION (LAMBDA (PAIR) (PUTPROP (CAR PAIR) (CADR PAIR) @NEXT)))
+		        POINTERS)
+
+            (DEFPROP GANGSTERSET (( IT SEEMS TO ME THAT GANGSTERS HAVE A LOT OF INFLUENCE IN THIS COUNTRY )
+                                  (I HAVE FELT GANGSTERS AND BOOKIES ARE PART OF ORGANIZED CRIME)
+                                       ) STMTS)
+           (DEFPROP PERSONSET ((PEOPLE DONT REALIZE HOW TOUGH GANGSTERS ARE)
+                                (PEOPLE DONT BELIEVE ME ABOUT GANGSTERS)
+                                       ) STMTS)
+            (DEFPROP RACKETSET ((I KNOW THE MOB CONTROLS THE BIG RACKETS)
+                                (I TOLD YOU THE MOB RUNS THE RACKETS)
+                                       ) STMTS)
+            (DEFPROP CHEATSET ((YOU CAN'T CHEAT AN HONEST MAN)
+                               (BOOKIES  HAVE CHEATED ME)
+                                                 ) STMTS)
+            (DEFPROP BOOKIESET (
+                                (A BOOKIE DIDN'T PAY ME OFF ONCE)
+                                (I BEAT UP THE BOOKIE WHO DID NOT PAY OFF/.  LATER ON I REMEMBERED
+                                 HE HAD FRIENDS IN THE UNDERWORLD AND I THOUGHT
+                                 HE WOULD USE THEM TO GET EVEN WITH ME)
+                                                  ) STMTS)
+            (DEFPROP GAMBLERSET ((GAMBLING HAS BEEN NOTHING BUT TROUBLE FOR ME)
+                                 (I'VE HAD EXPERIENCE WITH CROOKS GAMBLING AT THE TRACK)
+                                                  ) STMTS)
+            (DEFPROP MONEYSET (( I HAVE LOST A LOT OF MONEY GAMBLING )
+                               (I LOST MONEY GAMBLING WITH BOOKIES )
+                                                 ) STMTS)
+            (DEFPROP HORSERACINGSET ((I USED TO GO TO THE TRACK EVERY WEEK)
+                                     (I AVOID RACETRACKS NOW BECAUSE THE RACES ARE FIXED)
+                                                  ) STMTS)
+            (DEFPROP POLICESET ((COPS DON'T DO THEIR JOB)
+                                (I THINK THE COPS ARE PAID OFF BY THE MOB)
+                                                  ) STMTS)
+            (DEFPROP ITALIANSET ((ITS OBVIOUS TO ME GANGSTERS ARE MAINLY ITALIANS )
+                                (THE LAW SHOULD GET AFTER THOSE ITALIAN MOBSTERS)
+                                                  ) STMTS)
+            (DEFPROP HORSESET ((I'VE BEEN INTERESTED IN HORSERACING FOR SOME TIME)
+                               (I READ THE RACING FORMS TO MAKE BETS)
+                                                  ) STMTS)
+
+            (MAPCAR (FUNCTION (LAMBDA (X) (EVAL (CONS @DEFPROP (CONS X @(0 NREF)))))) (CADAR FL))
+      
+~            %   TAG EACH WORD WITH THE CONCEPT SET TO WHICH IT BELONGS   %
+
+	(MAPCAR (FUNCTION (LAMBDA (CONCEPT)
+		(MAPCAR (FUNCTION (LAMBDA (WORD) (PUTPROP WORD CONCEPT @SET))) (GET CONCEPT @WORDS))))
+		(GET @SENSITIVELIST @SETS))
+      
+	(MAPCAR (FUNCTION (LAMBDA (CONCEPT)
+		(MAPCAR (FUNCTION (LAMBDA (WORD) (PUTPROP WORD CONCEPT @SET))) (GET CONCEPT @WORDS))))
+		(GET @FLARELIST @SETS))
+~            %   EXACT TYPE OF REPLY DEPENDS ON TYPE OF CONCEPT UNDER CONSIDERATION   %
+      
+	(MAPCAR (FUNCTION (LAMBDA (CONCEPT) (PUTPROP CONCEPT @INSTITUTION @TYPE)))
+		@(MAFIASET POLICESET))
+	(MAPCAR (FUNCTION (LAMBDA (CONCEPT) (PUTPROP CONCEPT @SPECIFIC @TYPE)))
+		(APPEND @(GANGSTERSET BOOKIESET GAMBLERSET HORSERACINGSET ITALIANSET HORSESET)
+			(GET @SENSITIVELIST @SETS)))
+
+~            %   DATA RELATING TO DELUSIONAL COMPLEX   %
+
+~           %   S I N G L E WORDS ONLY ALLOWED IN DN, DV, AN, AV    %
+
+            (SETQ DN @(MAFIA  VIOLENCE DEATH SHOT SHOOTING VICTIM FATAL BULLET BULLETS
+                       BOMB BOMBS BLOOD BLOODY PISTOL RIFLE REVOLVER SHOTGUN GUN GUNS
+                       KNIFE KNIVES WEAPON WEAPONS
+                       ))
+
+            (SETQ DV @(KILL KILLED ESCAPE MURDER MURDERING MURDERED STAB STABBED SHOOT STRANGLE
+                       DESTROY CRUSH
+                       ))
+
+            (MAPCAR (FUNCTION (LAMBDA (WORD) (PUTPROP WORD T @STRONG))) (APPEND DN DV))
+
+            (SETQ AN @(
+                       CONTROL HARM HATRED THREAT THREATS
+                          ))
+
+            (SETQ AV @(
+                       FOLLOW BUG BUGGED BUGGING DIE DIED BEAT
+                       HARMED HARMING INFLUENCE INFLUENCING INFLUENCED
+                       THREATEN THREATENING CONTROLLING HIDE HIDING
+                       HATE 
+                           ))
+
+            (SETQ ANV (APPEND AN AV))
+
+            (MAPCAR (FUNCTION (LAMBDA (WORD) (PUTPROP WORD T @AMBD))) ANV)
+
+            (PUTPROP @DELWDS ANV @AMBIG)
+
+            (PUTPROP @DELWDS (APPEND DN  @(PLOT EAVESDROPPING SPY SPIES SPYING WIRETAPPING TRAP TRAPS
+                              CONSPIRACY CHIEF CHIEFTAIN CHIEFTAINS SOLDIER SOLDIERS (COSA NOSTRA) 
+                              PRISONER BOSS BOSSES GANGLEADER GANGLEADERS BONANNOS BONNANOS BANANAS 
+                              HENCHMAN HENCHMEN 
+                              (PHONE CALL) (PHONE CALLS) (FIFTH AMENDMENT)
+                              ENEMY ENEMIES PERSECUTORS STOOLIE STOOLPIGEON STOOLPIGEONS FINK
+                              MICROPHONE
+                              )) @NOUNS)
+
+            (PUTPROP @DELWDS (APPEND DV @(FOLLOWING FOLLOWED SPIED 
+                              INCRIMINATE INCRIMINATING INCRIMINATED FRAME FRAMING FRAMED 
+                              PURSUE PURSUING PURSUED
+                              PERSECUTE PERSECUTING PERSECUTED (IS OUT GET) (ARE OUT GET) (GET RID)
+                              (BEING OBSERVED) (BEING WATCHED) HURT CONTROLLED 
+                              CROSS CROSSED DOUBLECROSS DOUBLECROSSED SQUEAL KIDNAP 
+                              TAP TAPPED TAPPING
+                              )) @VERBS)
+
+            (DEFPROP MODIFIERS  (A AN THE YOUR MY HIS HER THEIR
+                                    )  IND)
+
+            (DEFPROP PRON  (YOU ME YOURSELF MYSELF THEM)  IND)
+
+            (DEFPROP ANREF ((THEY) (THEM) (IT)) IND)
+
+            (DEFPROP FEAR  (((FEARFUL)) 
+                             ((PANICKED)) 
+                             ((NERVOUSLY)))  IND)
+
+            (DEFPROP PREFACE  (YOU KNOW/,)  1)
+            (DEFPROP PREFACE  (LIKE I'VE SAID/,)  2)
+            (DEFPROP PREFACE  (I TELL YOU/,)  3)
+
+            (SETQ DL @((DELUSIONS ((THEY KNOW ME)
+                             (THE MAFIA REALLY KNOW ABOUT ME)
+                             (THEY KNOW WHO I AM)) DEL1)
+                 (DELUSIONS ((THEY ARE OUT TO GET ME)
+                             (THEY ARE AFTER ME)
+                             (THEY ARE TRYING TO SCARE ME)) DEL2)
+                 (DELUSIONS ((THEY SPY ON ME)
+                             (THEY KNOW WHAT IM DOING)
+                             (THEY KEEP TABS ON ME)) DEL3)
+                 (DELUSIONS ((I HAVE INCRIMINATING EVIDENCE AGAINST THE MAFIA)
+                             (IVE GOT SOMETHING ON THEM)
+                             (IVE FOUND OUT ABOUT SOME OF THEIR SECRETS)) DEL4)
+                 (DELUSIONS ((I KNOW WHO THE LOCAL CHIEF OF THE MAFIA IS)
+                             (I KNOW THE BOSS OF THE MAFIA AROUND HERE)
+                             (IVE GOT A PRETTY GOOD IDEA ON WHO IS RUNNING THE ORGANIZATION IN THIS AREA)) DEL5)
+                 (DELUSIONS ((MAYBE THEY ARE GLAD I AM IN THE HOSPITAL)
+                             (THEY WANT TO KEEP ME IN THE HOSPITAL)
+                             (THEY DON'T WANT ME TO EVER LEAVE HERE)) DEL6)
+                 (DELUSIONS ((THEY TAP MY PHONE)
+                             (THEY BUG MY ROOM)
+                             (THEY HAVE ME FOLLOWED)) HOWSPY)
+                 (DELUSIONS ((THEY WANT TO GET FALSE EVIDENCE TO FRAME ME)
+                             (THEY ARE LOOKING FOR A WAY TO INCRIMINATE ME)
+                             (THEY WANT TO SET A TRAP FOR ME)) WHYSPY)
+                 (DELUSIONS ((I'VE NOTICED IT NOW AND THEN IN THE PAST FEW MONTHS)
+                             (SEVERAL TIMES IN THE PAST FEW WEEKS)
+                             (THEY'RE CONSTANTLY DOING IT)) WHENSPY)
+                 (DELUSIONS ((WELL/, I DON'T WANT TO SAY RIGHT NOW/, BUT IT'S ALL BECOMING CLEAR)
+                             (I'VE FINALLY PUT THE PIECES TOGETHER)
+                             (DON'T WORRY/, I'VE GOT IT ALL FIGURED OUT)) AVOID)
+                 (DELUSIONS ((HE IS JOE BANANAS )
+                             (BANANAS CONTROLS THE ORGANIZATION)
+                             (BANANAS )) LEADER)
+                 (DELUSIONS ((THEY WANT ME OUT OF THE WAY)
+                             (THEY DON'T WANT ME TO TESTIFY)
+                             (THEY WANT TO KEEP ME A PRISONER IN THE HOSPITAL)) WHYHOSP)
+                                                                   ))
+            (MAPCAR (FUNCTION (LAMBDA (X) (EVAL (CONS @DEFPROP X))))  DL)
+
+            (SETQ AL @((ANSWERS ((((WHAT)) DEL2)(((HOW KNOW)) DEL3) (((WHO ARE)(WHY)) DEL4)) DEL1)
+                 (ANSWERS ((((WHY) (WHAT FOR) (PURPOSE) (REASON)) DEL4) (((HOW KNOW)) DEL3)) DEL2)
+                 (ANSWERS ((((HOW) (WAY)) HOWSPY) (((WHEN)) WHENSPY) (((WHY)) WHYSPY)) DEL3)
+                 (ANSWERS ((((WHAT)(WHERE)) AVOID)) DEL4)
+                 (ANSWERS ((((WHO) (HE) (HIM)) LEADER)) DEL5)
+                 (ANSWERS ((((WHEN)) WHENSPY) (((WHY)) WHYSPY)) HOWSPY)
+                 (ANSWERS ((((HOW)) HOWSPY) (((WHY)) DEL4)) WHYSPY)
+                 (ANSWERS ((((WHAT FOR) (WHY) (PURPOSE) (REASON)) WHYHOSP)) DEL6)
+                                                                   ))
+            (MAPCAR (FUNCTION (LAMBDA (X) (EVAL (CONS @DEFPROP X))))  AL)
+
+	(MAPCAR (FUNCTION (LAMBDA (I) (PUTPROP I 0 @FREQ)))
+		@(DEL1 DEL2 DEL3 DEL4 DEL5 DEL6 HOWSPY WHYSPY WHENSPY AVOID LEADER WHYHOSP))
+
+            (DEFPROP MAFIASET (
+                               (I'VE TOLD YOU ALL I KNOW ABOUT THE MAFIA)
+                               (DIDN'T YOU LISTEN TO WHAT I SAID ABOUT THEM BEFORE?)
+                               (I SAID I DIDN'T WANT TO TALK ABOUT THAT ANYMORE)
+                                        ) IND)
+
+            (DEFPROP DISBELIEF (
+                                (YOU SURE)
+                                (YOU THINK)
+                                (I DON'T)
+                                (NO ONE)
+                                (BUT) 
+                                (DOUBT) (RIDICULOUS)
+                                (REASON) (EVIDENCE)
+                                (IMAGINING) (IMAGINATION)
+                                (YOU MISTAKEN)
+                                (YOU WRONG) (YOU INCORRECT)
+                                    ) IND)
+
+            (DEFPROP BELIEVEREPLIES  ((YOU DON'T BELIEVE ME?) 
+                                       (YOU DONT BELIEVE ME DO YOU) 
+                                       (YOURE SKEPTICAL LIKE ALL THE OTHERS WHO DONT KNOW))  IND)
+
+            (DEFPROP ALOOF  (((EYES YOU SUSPICIOUSLY) NEVER MIND/, I'VE GOT IT ALL FIGURED OUT) 
+                              (I KNOW MORE ABOUT THIS THAN YOU DO)
+                              (YOU DON'T KNOW MUCH ABOUT WHAT REALLY GOES ON)
+                              (YOU DON'T SEEM TO UNDERSTAND) 
+                              (IT'S CLEAR TO ME IF NOT TO YOU)
+                              (YOU SEEM INSINCERE TO ME)
+                              (YOU ARE NOT TAKING THIS SERIOUSLY)
+                              (IT SEEMS LIKE I DON'T NEED YOUR HELP AFTER ALL))  IND)
+
+            (DEFPROP TURNOFF  (((IRRITATED) OH FORGET IT) 
+                                ((STARES AT YOU)) 
+                                ((HEADS FOR DOOR) YOU DON'T KNOW WHAT YOU'RE TALKING ABOUT/, FORGET IT)
+                                                  ) IND)
+            (DEFPROP EXHAUST (
+                              (I HAVE ALREADY TOLD YOU ENOUGH ABOUT THAT)
+                              (YOU KEEP ASKING ME THE SAME THINGS/,
+                               WHY NOT CHANGE THE TOPIC?)
+                              (I WOULD RATHER NOT DISCUSS THAT ANYMORE)
+                              (I AM GETTING TIRED OF ANSWERING THE SAME QUESTIONS
+                               OVER AND OVER)
+                              (YOU HARP ON THE SAME QUESTIONS TOO MUCH)
+                              (IN MY OPINION YOU HAVE A ONE-TRACK MIND)
+                              (WHAT'S WRONG WITH YOU THAT YOU KEEP ON
+                               BUGGING ME ABOUT THIS?)
+                              (THE WAY YOU REPEAT YOURSELF IS GETTING RIDICULOUS)
+                              (YOU ARE A REAL NAG)
+                              (I HAVE HAD ENOUGH OF THIS)
+                                  ) IND)
+     
+
+00100	(SETQ IBASE 8.)
+
+
+(LAP SEND SUBR) 
+(JRST BEGIN#) 
+LETTER# 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+BEGIN# 
+(CALL 1 (E SIXBIT)) 
+(MOVEM 1 JOB#) 
+(40000 1 (C 564155 0 455156)) 
+(JRST 0 FAILED#) 
+(710000 0 JOB#) 
+(JRST 0 FAILED#) 
+(MOVEI 1 LETTER#) 
+(CALL 1 (E CLEAR_MAILBOX)) 
+(MOVEI 1 (QUOTE T)) 
+(POPJ P) 
+FAILED# 
+(MOVEI 1 LETTER#) 
+(CALL 1 (E CLEAR_MAILBOX)) 
+(MOVEI 1 (QUOTE NIL)) 
+(POPJ P) 
+JOB# 
+(0 0) 
+(0 0 LETTER#) 
+NIL 
+
+(LAP WRCV SUBR) 
+(JRST BEGIN#) 
+LETTER# 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+BEGIN# 
+(MOVEI 1 LETTER#) 
+(CALL 1 (E CLEAR_MAILBOX)) 
+(710000 1 LETTER#) 
+(MOVEI 1 LETTER#) 
+(MOVEI 2 (QUOTE FIXNUM)) 
+(JCALL 2 (E MAKNUM)) 
+NIL 
+
+(LAP SRCV SUBR) 
+(JRST BEGIN#) 
+LETTER# 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+BEGIN# 
+(MOVEI 1 LETTER#) 
+(CALL 1 (E CLEAR_MAILBOX)) 
+(710000 2 LETTER#) 
+(JRST 0 NOLETT#) 
+(MOVEI 1 LETTER#) 
+(MOVEI 2 (QUOTE FIXNUM)) 
+(JCALL 2 (E MAKNUM)) 
+NOLETT# 
+(MOVEI 1 (QUOTE NIL)) 
+(POPJ P) 
+NIL 
+
+(LAP MAIL_IS_WAITING SUBR) 
+(CAIE 1 (QUOTE ME)) 
+(JRST 0 HIM#) 
+(710000 3) 
+(JRST 0 NOMAIL#) 
+(JRST 0 MAIL#) 
+HIM# 
+(CALL 1 (E SIXBIT)) 
+(40000 1 (C 564155 0 455156)) 
+(JRST 0 NOMAIL#) 
+(710000 4 1) 
+(JRST 0 NOMAIL#) 
+MAIL# 
+(MOVEI 1 (QUOTE T)) 
+(POPJ P) 
+NOMAIL# 
+(MOVEI 1 (QUOTE NIL)) 
+(POPJ P) 
+NIL 
+
+(LAP CLEAR_MAILBOX SUBR) 
+(402000 0 0 1) 
+(514000 2 1) 
+(271000 1 1) 
+(540000 2 1) 
+(271000 1 36) 
+(HRRM 1 BLT#) 
+BLT# 
+(251000 2 0) 
+(MOVEI 1 (QUOTE NIL)) 
+(POPJ P) 
+NIL 
+
+(LAP JOB_EXISTS SUBR) 
+(CALL 1 (E SIXBIT)) 
+(40000 1 (C 564155 0 455156)) 
+(JRST 0 NO#) 
+(MOVEI 1 (QUOTE T)) 
+(POPJ P) 
+NO# 
+(MOVEI 1 (QUOTE NIL)) 
+(POPJ P) 
+NIL 
+
+(LAP SLEEP SUBR) 
+(275000 1 577777) 
+(47000 1 31) 
+(MOVEI 1 (QUOTE NIL)) 
+(POPJ P) 
+NIL 
+
+(LAP SAVEJOB SUBR) 
+(MOVEM 2 SAVEXT#) 
+(CALL 1 (E SIXBIT)) 
+(MOVEM 1 SAVNAM#) 
+(MOVE 1 SAVEXT#) 
+(JUMPE 1 SAVACS#) 
+(CALL 1 (E SIXBIT)) 
+(MOVEM 1 SAVEXT#) 
+SAVACS# 
+(MOVEM 0 AC0#) 
+(MOVE 0 (C 1 0 AC1#)) 
+(251000 0 AC17#) 
+(MOVE 1 (C SAVE# 0)) 
+(47000 1 400004) 
+START# 
+(MOVE 0 (C AC1# 0 1)) 
+(251000 0 17) 
+(MOVE 0 AC0#) 
+(MOVEI 1 (QUOTE NIL)) 
+(POPJ P) 
+SAVE# 
+(446353 0 0) 
+SAVNAM# 
+(0 0) 
+SAVEXT# 
+(0 0) 
+(0 0 START#) 
+(0 0) 
+AC0# 
+(0 0) 
+AC1# 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+(0 0) 
+AC17# 
+(0 0) 
+NIL 
+
+(LAP SKIPCH SUBR) 
+(51000 2 1) 
+(JRST 0 NOCHAR#) 
+(CALL 1 (E ASCII)) 
+(JCALL 1 (E INTERN)) 
+NOCHAR# 
+(MOVEI 1 (QUOTE NIL)) 
+(POPJ P) 
+NIL 
+
+(LAP CLEAR_BUFFER SUBR) 
+(51000 11) 
+(CALL 0 (E SKIPCH)) 
+(51000 11) 
+(MOVEI 1 (QUOTE NIL)) 
+(POPJ P) 
+NIL 
+
+(LAP SIXBIT SUBR) 
+(MOVEI 2 (QUOTE PNAME)) 
+(CALL 2 (E GET)) 
+(HLRZ@ 2 1) 
+(MOVE 2 0 2) 
+(MOVEI 3 0) 
+(HRRZ@ 1 1) 
+(JUMPE 1 START#) 
+(HLRZ@ 3 1) 
+(MOVE 3 0 3) 
+START# 
+(402000 0 1) 
+(MOVEI 7 6) 
+(MOVE 4 (C 440700 0 2)) 
+(MOVE 5 (C 440600 0 1)) 
+LOOP# 
+(134000 6 4) 
+(JUMPE 6 END#) 
+(275000 6 40) 
+(136000 6 5) 
+(367000 7 LOOP#) 
+END# 
+(POPJ P) 
+NIL 
+
+(LAP SEND_MAIL SUBR)  
+	(PUSH P 1)  
+	(PUSH P 2)  
+	(PUSH P (C 0 0 (QUOTE NIL) 0))  
+	(PUSH P (C 0 0 (QUOTE NIL) 0))  
+	(PUSH P (C 0 0 (QUOTE NIL) 0))  
+	(CALL 1 (E JOB_EXISTS))  
+	(JUMPE 1 G0007)  
+G0011 	(MOVE 1 -3 P)  
+	(CALL 1 (E STRP))  
+	(JUMPE 1 G0014)  
+	(MOVE 1 -3 P)  
+	(JRST 0 G0013)  
+G0014 	(MOVE 1 -3 P)  
+	(CALL 1 (E EXPLODE))  
+	(MOVEI 2 (QUOTE (/")))  
+	(CALL 2 (E *APPEND))  
+	(MOVEI 2 (QUOTE /"))  
+	(CALL 2 (E XCONS))  
+	(CALL 1 (E READLIST))  
+G0016  
+G0013 	(MOVEI 2 (QUOTE PNAME))  
+	(CALL 2 (E GET))  
+	(MOVEI 2 (QUOTE SUBR))  
+	(MOVEM 1 -1 P)  
+	(MOVEI 1 (QUOTE SEND))  
+	(CALL 2 (E GET))  
+	(MOVEI 2 (QUOTE FIXNUM))  
+	(CALL 2 (E MAKNUM))  
+	(MOVEI 2 (QUOTE 1))  
+	(CALL 2 (E *PLUS))  
+	(MOVEM 1 0 P)  
+G0001 	(PUSH P (C 0 0 (QUOTE NIL) 0))  
+G0002 	(MOVE 1 -5 P)  
+	(CALL 1 (E MAIL_IS_WAITING))  
+	(JUMPE 1 G0031)  
+	(MOVEI 1 (QUOTE 1))  
+	(CALL 1 (E SLEEP))  
+	(MOVEM 1 0 P)  
+	(JRST 0 G0030)  
+G0031 	(MOVE 1 0 P)  
+	(JRST 0 G0027)  
+G0034  
+G0030 	(JRST 0 G0002)  
+G0027 	(SUB P (C 0 0 1 1))  
+	(PUSH P -1 P)  
+	(PUSH P -1 P)  
+	(MOVEI 2 (QUOTE 37))  
+	(MOVE 1 -2 P)  
+	(CALL 2 (E *PLUS))  
+	(PUSH P 1)  
+	(PUSH P (C 0 0 (QUOTE NIL) 0))  
+	(PUSH P (C 0 0 (QUOTE NIL) 0))  
+G0004 	(MOVE 1 -4 P)  
+	(JUMPE 1 G0005)  
+	(MOVE 2 -2 P)  
+	(MOVE 1 -3 P)  
+	(CALL 2 (E *GREAT))  
+	(JUMPN 1 G0005)  
+G0045 	(MOVE 1 -4 P)  
+	(MOVEM 1 -7 P)  
+	(MOVE 1 -3 P)  
+	(MOVEI 2 (QUOTE FIXNUM))  
+	(MOVEM 1 -1 P)  
+	(HLRZ@ 1 -7 P)  
+	(CALL 2 (E MAKNUM))  
+	(CALL 1 (E EXAMINE))  
+	(MOVE 2 1)  
+	(MOVE 1 -1 P)  
+	(CALL 2 (E DEPOSIT))  
+	(MOVEM 1 0 P)  
+	(HRRZ@ 1 -4 P)  
+	(MOVEM 1 -4 P)  
+	(MOVE 1 -3 P)  
+	(CALL 1 (E ADD1))  
+	(MOVEM 1 -3 P)  
+	(JRST 0 G0004)  
+G0005 	(MOVE 1 -4 P)  
+	(JUMPN 1 G0055)  
+	(CLEARB 1 -7 P)  
+	(JUMPN 1 G0054)  
+G0055  
+G0054 	(MOVE 1 0 P)  
+	(SUB P (C 0 0 5 5))  
+	(MOVE 1 -4 P)  
+	(CALL 1 (E SEND))  
+	(JUMPE 1 G0007)  
+	(MOVE 1 -2 P)  
+	(JUMPN 1 G0059)  
+	(MOVEI 1 (QUOTE T))  
+	(JRST 0 G0006)  
+G0059 	(HRRZ@ 1 -2 P)  
+	(MOVEM 1 -1 P)  
+	(JRST 0 G0001)  
+G0060  
+G0007 	(MOVEI 1 (QUOTE NIL))  
+G0006 	(SUB P (C 0 0 5 5))  
+	(POPJ P)  
+	NIL  
+ 
+ 
+(LAP GET_MAIL SUBR)  
+	(MOVEI 2 (QUOTE SRCV))  
+	(JCALL 2 (E RECEIVE_MAIL))  
+	NIL  
+ 
+ 
+(LAP WAIT_FOR_MAIL SUBR)  
+	(MOVEI 2 (QUOTE WRCV))  
+	(JCALL 2 (E RECEIVE_MAIL))  
+	NIL  
+ 
+ 
+(LAP RECEIVE_MAIL SUBR)  
+	(PUSH P 1)  
+	(PUSH P 2)  
+	(CALL 0 (E GENSYM))  
+	(MOVEI 2 (QUOTE PNAME))  
+	(PUSH P 1)  
+	(CALL 2 (E GET))  
+	(MOVEI 2 (QUOTE FIXNUM))  
+	(HLRZ@ 1 1)  
+	(CALL 2 (E MAKNUM))  
+	(PUSH P 1)  
+	(PUSH P (C 0 0 (QUOTE NIL) 0))  
+	(PUSH P (C 0 0 (QUOTE NIL) 0))  
+	(PUSH P (C 0 0 (QUOTE NIL) 0))  
+	(CALLF@ 0 -5 P)  
+	(MOVEM 1 0 P)  
+	(JUMPE 1 G0070)  
+G0078  
+G0067 	(PUSH P 0 P)  
+	(MOVEI 2 (QUOTE 37))  
+	(MOVE 1 -1 P)  
+	(CALL 2 (E *PLUS))  
+	(PUSH P 1)  
+	(PUSH P (C 0 0 (QUOTE NIL) 0))  
+	(PUSH P (C 0 0 (QUOTE NIL) 0))  
+G0068 	(MOVE 2 -2 P)  
+	(MOVE 1 -3 P)  
+	(CALL 2 (E *GREAT))  
+	(JUMPE 1 G0085)  
+	(MOVE 2 0 P)  
+	(JRST 0 G0080)  
+G0085  
+G0087 	(MOVE 2 -3 P)  
+	(MOVEM 2 -1 P)  
+	(MOVE 1 2)  
+	(CALL 1 (E EXAMINE))  
+	(MOVE 2 1)  
+	(MOVE 1 -7 P)  
+	(CALL 2 (E DEPOSIT))  
+	(MOVEI 2 (QUOTE 0))  
+	(CALL 2 (E EQUAL))  
+	(JUMPE 1 G0090)  
+	(MOVEI 2 (QUOTE T))  
+	(MOVEM 2 -6 P)  
+	(MOVEI 2 (QUOTE NIL))  
+	(JRST 0 G0089)  
+G0090 	(MOVE 1 -10 P)  
+	(CALL 1 (E EXPLODEC))  
+	(MOVE 2 1)  
+G0094  
+G0089 	(MOVE 1 0 P)  
+	(CALL 2 (E *APPEND))  
+	(MOVEM 1 0 P)  
+	(MOVE 2 -6 P)  
+	(JUMPE 2 G0100)  
+	(EXCH 2 1)  
+	(JRST 0 G0080)  
+G0100  
+G0101 	(MOVE 1 -3 P)  
+	(CALL 1 (E ADD1))  
+	(MOVEM 1 -3 P)  
+	(JRST 0 G0068)  
+G0080 	(MOVE 1 -5 P)  
+	(CALL 2 (E *APPEND))  
+	(SUB P (C 0 0 4 4))  
+	(MOVEM 1 -1 P)  
+	(JUMPN 1 G0108)  
+	(MOVE 1 -6 P)  
+	(JUMPE 1 G0110)  
+	(MOVEI 1 (QUOTE NIL))  
+	(JRST 0 G0109)  
+G0110 	(MOVEI 1 (QUOTE ""))  
+G0111  
+G0109 	(JRST 0 G0069)  
+G0108 	(CALL 1 (E LAST))  
+	(HLRZ@ 2 1)  
+	(CAIE 2 (QUOTE /"))  
+	(JRST 0 G0114)  
+	(MOVE 1 -6 P)  
+	(JUMPE 1 G0118)  
+	(MOVE 1 -1 P)  
+	(CALL 1 (E REVERSE))  
+	(HRRZ@ 1 1)  
+	(CALL 1 (E REVERSE))  
+	(JRST 0 G0117)  
+G0118 	(MOVE 2 -1 P)  
+	(MOVEI 1 (QUOTE /"))  
+	(CALL 2 (E CONS))  
+G0122  
+G0117 	(CALL 1 (E READLIST))  
+	(JRST 0 G0069)  
+G0114 	(MOVE 1 -2 P)  
+	(JUMPE 1 G0127)  
+	(MOVE 1 -6 P)  
+	(JUMPE 1 G0129)  
+	(MOVE 1 -1 P)  
+	(JRST 0 G0128)  
+G0129 	(MOVEI 1 (QUOTE /"))  
+	(CALL 1 (E NCONS))  
+	(MOVE 2 1)  
+	(MOVE 1 -1 P)  
+	(CALL 2 (E *APPEND))  
+	(MOVEI 2 (QUOTE /"))  
+	(CALL 2 (E XCONS))  
+G0130  
+G0128 	(CALL 1 (E READLIST))  
+	(JRST 0 G0069)  
+G0127 	(CALL 0 (E WRCV))  
+	(MOVEM 1 0 P)  
+	(JRST 0 G0067)  
+G0137  
+G0070 	(MOVEI 1 (QUOTE NIL))  
+G0069 	(SUB P (C 0 0 7 7))  
+	(POPJ P)  
+	NIL  
+ 
+ 
+ 
+(SETQ IBASE 10.)
+
+
+
